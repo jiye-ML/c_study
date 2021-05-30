@@ -9,6 +9,9 @@ int main() {
     scanf("%d", &val);
     printf("转换结果是");
     printf("%d", (val & ch) != 0/*得到一个数位的内容*/);
+
+    printf("**8", (va))
+
     ch >>= 1;  //ch内容从0x80变成0x40
     printf("%d", (val & ch) != 0/*得到一个数位的内容*/);
     ch >>= 1;  //ch内容从0x40变成0x20
@@ -22,7 +25,9 @@ int main() {
     ch >>= 1;  //ch内容从0x04变成0x02
     printf("%d", (val & ch) != 0/*得到一个数位的内容*/);
     ch >>= 1;  //ch内容从0x02变成0x01
+
     printf("%d\n", (val & ch) != 0/*得到一个数位的内容*/);
+
     return 0;
 }
 
