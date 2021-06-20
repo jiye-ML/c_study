@@ -3,7 +3,8 @@
  * */
 #include <stdio.h>
 #include <stdlib.h>
-int main() {
+int main()
+{
     double dval = 0.0;
     int val = atoi("24sdgdg");  //把字符串开头的24转换成整数类型并作为返回值
     printf("val是%d\n", val);
